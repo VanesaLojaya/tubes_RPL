@@ -50,3 +50,28 @@ Things yang harus ada
 
 3. Tambahan fungsi
     1. 
+
+
+
+warga
+- buat laporan (wilayah, wqktu, desc, foto u/bukti) 
+- status verif laporan
+- update laporan (u/ bencana yg ad ronde susulan) 
+
+petugas lapangan
+cek laporan
+1) bnr: bikin pengumuman
+tdk:
+
+2) butuh bantuan/penanganan
+n: verif tp close case
+y: mencatat status penanganan ('sdg ditangani'), mencatat log penanganan (ud dikirim relawan brp org, bantuan berupa apa, brp, via apa), mencatat detail (korban, hurt-deaths, skala klo kyk gempa dll) 
+
+admin sistem (jaga data) 
+- import data wilayah (kota x ad wilayah ap aj), data warga (nik, domisili), data petugas (bs relawan, ... beda" tipe), data instansi (yg bantu blm tentu relawan), jenis bencana
+
+catetan 
+------
+-opsional: data dummy of past events u/ buat statistik (misal jabar plg frequent bencana x y z) 
+-user bs liat laporan org lain
+-laporan yg sama hanya blh dibuat kalo case yg ud dilaporkan ud closed
