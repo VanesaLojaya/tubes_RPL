@@ -1,0 +1,52 @@
+stakeholder: Dinas
+user: Petugas dinas, admin aplikasi dan masyarakat
+user story:
+
+
+Things yang harus ada
+1. jenis bencana yg akan direkap: banjir, kebakaran hutan, 
+                                gunung meledak, keracunan mbg
+2. Hal yang bisa dilakukan di app
+    untuk user/masyarakat umum
+    1. Laporan dari pihak masyarakat
+        1. Kasih pilihan bencana yg terjadi (list drop down)
+        2. Kasih box untuk diisi mereka perlu apa 
+        3. Isi pilihan nama wilayah (list drop down) 
+            provinsi to kota to kab to daerah
+        4. mbg laporan per sekolah (kasih nama sekolah)
+        5. waktu kapan bencana terjadi
+        6. foto bencana nya
+        7. Harus kasih opsi untuk update bencana.
+
+        7. status bencana approve atau tidak di bencana
+
+        yg misal ada laporan tbtb ada itu kerja nya admin
+        excel wilayah
+    2. Menerima/melihat pengumumam bencana
+    3. 
+
+    untuk petugas
+    1. Memverif Laporan
+    2. mengeluarkan pengumuman
+    3. status penanganan per wilayah
+    4. Kalau laporan tidak benar ditolak harus ada column kasih alasan
+    5. Kalau laporan benar, petugas bikin si laporan nya kayak hati-hati ada bencana xxx
+    6. kasih tambahan apakah bencana nya tidak perlu penanganan, petugas tetap harus verif dan close
+    7. kalau bencana nya beneran ada dan perlu penanganan 
+    8. Pencatatan korban (hilang, luka)
+    9. Plot nya harus tetap di catat (update perkembangan)
+
+    untuk admin
+    1. Menjaga data dan sistem untuk tetap berjalan
+    2. import data warga (nik, nama dan domisili)
+    3. Mencatat data petugas (tracking petugas) 
+    4. Mencatat Instansi pembantu
+    5. Catat jenis bencana terus dikategorikan
+
+
+    (kalau niat ada data dummy, kasih statistik bencana di kota x seringnya bencana apa)
+    pencatatat wilayah sampai per wilayah tertentu (nanti tinggal import)
+    laporan baru boleh ditambah 
+
+3. Tambahan fungsi
+    1. 
