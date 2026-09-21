@@ -52,6 +52,7 @@ Things yang harus ada
     1. Dalam satu laporan akan diletakkan semua laporan dari aktif, selesai, tolak, 
     verifying di satu halaman terus akan di sort mereka dan akan dikasi indikator special 
     untuk mempermudah visualization dan pembedaan jenis. Lalu akan dikasih sorting juga 
+    2. Admin bikin akun petugas
 
 
 
