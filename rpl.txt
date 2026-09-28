@@ -84,7 +84,7 @@ catetan
 Perbaikan
 - tulis ulang kepanjangan AMPUN 
 - product functionnya, kurang detil masing2 org ngapain, divalidasi siapa, penanggulang lainnya siapa
-- pengguna aplikasi web disebut pelapor, petugas, atau admin
+- pengguna aplikasi web disebut pelapor, petugas, atau admin (udah)
 - jelasin pelapor bisa apa, petugas bisa apa, kasih contoh
 - mending ditulis pake poin2 tiap role bisa apa
 - bisa ditambahkan bbrp sample UI di 3.1
