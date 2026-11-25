@@ -1,0 +1,16 @@
+body {
+    width: 402px;
+    height:874px;
+    background-color: ;
+}
+
+#clearBg{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+}
+
+#loginMobile{
+    background-color: blue;
+}
