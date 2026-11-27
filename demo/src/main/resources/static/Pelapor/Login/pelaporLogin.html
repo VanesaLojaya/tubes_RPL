@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel ="stylesheet" href="../CSS/StyleLoginPelapor.CSS">
+    <link rel ="stylesheet" href="../Login/StyleLoginPelapor.CSS">
 </head>
 <body>
     <div id="loginMobile">
-        <img src="../assets/background.jpg">
+        <img class="bg-img" src="/TUBES/tubes_RPL/demo/src/main/resources/static/assets/background.jpg">
     
         <div id="clearBg">
-    
+            <h1>LOGIN</h1>
+            <p class="masuk" >Masukan Nomor Telepon serta Password</p>
+
+            <form action="#" method="post">
+                <label>
+                    <span class="form-label">Nomor Telepon</span>
+                    <input class="form-control" type="text" name="username" placeholder="Masukkan nomor telepon" required>
+                </label>
+                <td>
+                <label>
+                    <span class="form-label">Password</span>
+                    <input class="form-control" type="password" name="password" placeholder="Masukkan Password" required>
+                </label>
+                <div class="center-button">
+                    <input type="submit" value="Masuk">
+                    <div class="linkBawah" >
+                        <a href="../registrasi/registrasiPelapor.HTML"  class="belumPunyaAkun">Belum punya akun?</a>
+                        <a href="lupaPassword.HTML" class="lupaPassword">Lupa Password?</a>
+                    </div>  
+                </div>
+            </form>
         </div>
     </div>
 </body>
