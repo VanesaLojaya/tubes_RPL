@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard Admin</title>
+        
+        <link rel="stylesheet" href="adminStyles.css">
+        <script src="adminScripts.js" defer></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    </head>
+
+    <body>
+        <header class="topbar">
+            <div class="logo-ampun">
+                <h1>AMPUN</h1>
+                <p>Aplikasi Monitoring dan Pelaporan Urgensi Nasional</p>
+            </div>
+            
+            <div class="user">
+                <div class="pfp"><i class='bx bxs-user-circle'></i></div>
+                <div class="name">Adminitus III</div>
+            </div>
+        </header>
+
+        <div class="layout">
+            <nav class="sidebar">
+                <div style="margin-top: 20px;">
+                    <a href="#" class="important-nav">Dashboard</a>
+                    <a href="#" class="important-nav">Impor Data</a>
+                </div>
+                <div class="group">
+                    <div class="label">AKUN</div>
+                    <a href="#">Kelola Petugas</a>
+                    <a href="#">Tambah Instansi Pembantu</a>
+                </div>
+                <div class="group">
+                    <div class="label">BENCANA</div>
+                    <a href="#">Beranda Laporan</a>
+                    <a href="#">Statistik Bencana</a>
+                </div>
+                <div class="space"></div>
+                <a href="#" class="logout">Logout</a>
+            </nav>
+
+            <main>
+                <section class="container stats">
+                    <div class="title">Statistik Laporan</div>
+                    <div class="arrow">
+                        <button>←</button>
+                        <button>→</button>
+                    </div>
+
+                    <div>
+                        <h3>Total Bencana yang Dilaporkan</h3>
+                        <p class="subtext">Selama 1 tahun terakhir</p>
+                        <div class="total">56.789</div>
+                        <div class="unit">Laporan</div>
+                        <div class="filter-options">
+                            <button class="filter-option">Tahun</button>
+                            <button class="filter-option">Bulan</button>
+                            <button class="filter-option">Minggu</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container activity">
+                    <h2>
+                        Aktivitas Terbaru
+                        <a href=""><i class='bx bx-right-arrow-circle'></i></a>
+                    </h2>
+                    <ul>
+                        <li>
+                            <div class="initials">MV</div>
+                            <div>
+                                <strong>Magnum Vijaya</strong>
+                                <span>Membuat Petugas Kota Bandung “Tim Drake”</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="initials">MV</div>
+                            <div>
+                                <strong>Magnum Vijaya</strong>
+                                <span>Memverifikasi Petugas Kota Bandung “Tim Drake”</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="initials">MV</div>
+                            <div>
+                                <strong>Billie Eyelash</strong>
+                                <span>Membuat Petugas Kota Semarang “Marceline Abadeer”</span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="container todo">
+                    <header>
+                        <h2>
+                            To-Do List
+                            <a href=""><i class='bx bx-right-arrow-circle'></i></a>
+                        </h2>
+                        <button class="add-task">Tambah Task</button>
+                    </header>
+
+                    <ul>
+                        <li>
+                            <a href=""><i class='bx bxs-trash'></i></a>
+                            <label class="task">
+                                Verifikasi akun sub-admin Kota Surabaya 
+                                <input type="checkbox" checked>
+                            </label>
+                        </li>
+                        <li>
+                            <a href=""><i class='bx bxs-trash'></i></a>
+                            <label class="task">
+                                Catat PMI Surabaya 
+                                <input type="checkbox">
+                            </label>
+                        </li>
+                        <li>
+                            <a href=""><i class='bx bxs-trash'></i></a>
+                            <label class="task">
+                                Lacak lokasi Petugas di daerah Aceh
+                                <input type="checkbox">
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
