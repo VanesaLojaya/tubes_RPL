@@ -1,9 +1,42 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Petugas</title>
     <link rel="stylesheet" href="../login/loginPetugas.CSS">
 </head>
+
 <body>
-    
+
+    <img class="background" src="/demo/src/main/resources/static/assets/background.jpg" alt="Background">
+
+    <div class="login-container">
+        <h1>LOGIN</h1>
+        <p class="welcome">Welcome Admin!</p>
+
+        <form action="/loginPetugas" method="POST">
+
+            <div class="form-group">
+                <label for="username">Email</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan email anda" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan password anda" required>
+            </div>
+
+            <button type="submit">Masuk</button>
+
+            <div class="forgot-password">
+                <a href="/forgotPassword">Lupa Password?</a>
+            </div>
+
+        </form>
+    </div>
+
 </body>
+
 </html>
